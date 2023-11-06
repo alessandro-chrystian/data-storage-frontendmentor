@@ -1,6 +1,6 @@
 @media (max-width: 877px) {
     body {
-        background: hsl(229, 57%, 11%) url(../images/bg-mobile.png) right center no-repeat;
+        background: hsl(229, 57%, 11%) url(../images/bg-mobile.png) center top;
         background-size: cover;
     }
     .flex {
