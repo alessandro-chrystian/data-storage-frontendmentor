@@ -1,0 +1,55 @@
+@media (max-width: 877px) {
+    body {
+        background: hsl(229, 57%, 11%) url(../images/bg-mobile.png) right center no-repeat;
+        background-size: cover;
+    }
+    .flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main1 {
+        height: 120px;
+        width: 260px;
+    }
+
+    .main2 {
+        width: 320px;
+    }
+
+    .container-barra {
+        width: 250px;
+    }
+
+    .titulo {
+        align-self: center;
+    }
+
+    .rodape-titulo {
+        gap: 160px;
+        margin-top: -5px;
+        font-weight: bolder;
+    }
+
+    .balao {
+        top: 160px;
+        left: -84px;
+        width: 170px;
+    }
+
+    .balao::after {
+        display: none;
+    }
+
+    .container-barra::after {
+        right: 78px;
+        top: 3px;
+    }
+
+    .attribution { 
+        margin-top: 50px;
+        font-size: 14px;
+        text-align: center;
+        color: hsl(229, 7%, 55%);
+    }
+}
